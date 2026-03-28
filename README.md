@@ -159,7 +159,7 @@ Key insights:
 -	ROC AUC is more informative than accuracy for imbalanced data.
 
 
-### 📁 11. Project Structure
+### 📁 10. Project Structure
 ```
 ├── data/
 │   └── loan-prediction-dataset.csv
