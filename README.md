@@ -1,8 +1,7 @@
 # 🤹 Loan Approval Prediction 
 
-## 💰 Project Overview
+## 📽️ Project Overview
 This project builds a full machine‑learning pipeline to predict loan approval outcomes using the Kaggle Loan Prediction Dataset.
-It covers the entire workflow from data loading to model evaluation across SVM, Random Forest, and XGBoost.
 The pipeline includes:
 -	Data loading & inspection
 -	Cleaning (missing values, duplicates, type fixes)
@@ -14,6 +13,7 @@ The pipeline includes:
 -	Training multiple ML models
 -	Evaluation using accuracy, classification reports, confusion matrices, and ROC curves
 
+It covers the entire workflow from data loading to model evaluation across SVM, Random Forest, and XGBoost.
 
 ### 🧰 1. Setup & Dependencies
 #### Install required libraries:
@@ -28,7 +28,7 @@ Imported libraries include:
 - - `xgboost` (XGBClassifier)
 
 ### 📥 2. Data Sourcing
-_ The dataset is loaded from Google Drive:
+The dataset is loaded from Google Drive:
 ```
 df = pd.read_csv("/content/drive/MyDrive/JengaLabs/loan-prediction-dataset.csv")
 ```
